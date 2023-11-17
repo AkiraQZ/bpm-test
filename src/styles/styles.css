@@ -1,0 +1,28 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --color1:#2D3047;
+    --color2:#EBF2FA;
+    --color3:#C97B84;
+    --color4:#6C9A8B;
+    --color5:#32746D;
+}
+
+
+body {
+    margin: 0 auto;
+  }
+
+html {
+scroll-behavior: smooth;
+background-color: white;
+}
+
+.container {
+    max-width: 1440px;
+    overflow-x: hidden;
+  }
+
+.header
+
+/* stroke: red;
+fill: red; */

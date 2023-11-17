@@ -1,7 +1,7 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --color1:#2D3047;
-    --color2:#EBF2FA;
+    --color2:rgb(7, 161, 172);
     --color3:#C97B84;
     --color4:#6C9A8B;
     --color5:#32746D;
@@ -15,6 +15,7 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 105%;
+    margin: 0;
 }
 
 .heading2 {
@@ -24,25 +25,38 @@
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 600;
-	line-height: 125%;
+	line-height: 100%;
+    margin: 0;
 }
 
 .heading3 {
 	font-feature-settings: 'clig' off, 'liga' off;
-	color: var(--color1);
+	color: var(--color2);
 	font-family: var(--main-font);
-	font-size: 24px;
+	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 125%;
+    margin: 0;
 }
 
 .body-medium-text {
 	color: var(--color1);
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: var(--main-font);
-	font-size: 16px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
+    margin: 0;
+}
+
+.caption-text {
+	color: var(--color1) ;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: var(--main-font);
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
 }

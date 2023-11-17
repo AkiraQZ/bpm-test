@@ -94,5 +94,17 @@ span, h1, h2, h3{
   display: block;
 }
 
+.footer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color3);
+}
+
+.footer__link {
+  width: 4%;
+}
+
 /* stroke: red;
 fill: red; */

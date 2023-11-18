@@ -50,10 +50,13 @@ html {
 }
 
 .main__post {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border-radius: 39px;
+    background-color: grey;
 }
 
 .post__header {
@@ -79,12 +82,10 @@ html {
   background-color: var(--color4);
 }
 
-.post__comments {
-  background-color: var(--color2);
-}
+
 
 .comment {
-  background-color: var(--color5);
+  background-color:rgb(217, 129, 75);
   margin: 18px;
   padding: 8px;
   border-radius: 27px;

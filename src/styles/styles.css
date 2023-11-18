@@ -47,6 +47,11 @@ html {
   margin: 18px 18px 0px 18px;
   padding: 8px;
   border-radius: 27px;
+  width: 95%;
+}
+
+.hidden {
+  display: none;
 }
 
 .main__post {
@@ -64,6 +69,7 @@ html {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  margin: 0px auto 0px 0px;
 }
 
 .post__button {
@@ -85,7 +91,7 @@ html {
 
 
 .comment {
-  background-color:rgb(217, 129, 75);
+  background-color: var(--color3);
   margin: 18px;
   padding: 8px;
   border-radius: 27px;
@@ -93,6 +99,12 @@ html {
 
 span, h1, h2, h3{
   display: block;
+}
+
+.pagination__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .footer {
